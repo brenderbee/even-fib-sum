@@ -16,6 +16,7 @@ This webpage will add all even Fibonacci numbers less than 4,000,000 when the us
 | Program creates array of all Fibonacci numbers less than 4 | Input: 4 | Output: [1, 1, 2, 3] |
 | Program will filter even Fibonacci numbers less than 10| Input: 10 | Output: [2, 8] |
 | Program will add all even Fibonacci numbers less than 10 | Input:10 | Output: 10 |
+| Program will add all even Fibonacci numbers less than 4000000 | Input:4000000 | Output: 4613732 |
 
 
 ## Setup/Installation Requirements

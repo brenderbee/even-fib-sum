@@ -30,4 +30,12 @@ describe('fibNumbers', function(){
     expect(output).toEqual(10);
     console.log(output);
   });
+
+  it('will sum even Fibonacci numbers less than 4000000', function(){
+    let fibs = fibNumbers(4000000);
+    let evenFibs = evenFibFilter(fibs);
+    let output = evenFibsSum(evenFibs);
+    expect(output).toEqual(4613732);
+    console.log(output);
+  });
 });

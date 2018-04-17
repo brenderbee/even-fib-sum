@@ -7,7 +7,6 @@ export function fibNumbers(number) {
       fibNumbersArray.pop(fibNumbersArray[i]);
     }
   }
-  console.log(fibNumbersArray);
   return fibNumbersArray;
 }
 
