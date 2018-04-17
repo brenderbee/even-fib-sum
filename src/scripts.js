@@ -21,3 +21,11 @@ export function evenFibFilter(fibs) {
   }
   return evenFibNumbers;
 }
+
+export function evenFibsSum(evenFibs) {
+  let total = 0;
+  for (var i = 0; i < evenFibs.length; i++) {
+    total += evenFibs[i];
+  }
+  return total;
+}

@@ -1,5 +1,6 @@
 import {fibNumbers} from './../src/scripts.js'
 import {evenFibFilter} from './../src/scripts.js'
+import {evenFibsSum} from './../src/scripts.js'
 
 describe('fibNumbers', function(){
 
@@ -19,6 +20,14 @@ describe('fibNumbers', function(){
     let fibs = fibNumbers(10);
     let output = evenFibFilter(fibs);
     expect(output).toEqual([2, 8]);
+    console.log(output);
+  });
+
+  it('will sum even Fibonacci numbers less than 10', function(){
+    let fibs = fibNumbers(10);
+    let evenFibs = evenFibFilter(fibs);
+    let output = evenFibsSum(evenFibs);
+    expect(output).toEqual(10);
     console.log(output);
   });
 });
