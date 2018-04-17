@@ -12,10 +12,10 @@ This webpage will add all even Fibonacci numbers less than 4,000,000 when the us
 
 | Specification | Input | Output |
 | --- | --- | --- |
-| Program can calculate third Fibonacci number given previous two Fibonacci numbers |Input: [1, 1] | Output: [1, 1, 2] |
-| Program creates array of all Fibonacci numbers less than 10 | Input: [1, 1] | Output: [1, 1, 2, 3, 5, 8] |
-| Program will filter even Fibonacci numbers less than 10| Input: [1, 1, 2, 3, 5, 8] | Output: [2, 8] |
-| Program will add all even Fibonacci numbers less than 10 | Input:[2,8] | Output: 10 |
+| Program can calculate all Fibonacci numbers less than 3 |Input: 3 | Output: [1, 1, 2] |
+| Program creates array of all Fibonacci numbers less than 4 | Input: 4 | Output: [1, 1, 2, 3] |
+| Program will filter even Fibonacci numbers less than 10| Input: 10 | Output: [2, 8] |
+| Program will add all even Fibonacci numbers less than 10 | Input:10 | Output: 10 |
 
 
 ## Setup/Installation Requirements
