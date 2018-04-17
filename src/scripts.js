@@ -10,3 +10,14 @@ export function fibNumbers(number) {
   console.log(fibNumbersArray);
   return fibNumbersArray;
 }
+
+export function evenFibFilter(fibs) {
+  let evenFibNumbers = [];
+
+  for (var i = 0; i < fibs.length; i++) {
+    if (fibs[i] % 2 ===0) {
+      evenFibNumbers.push(fibs[i]);
+    }
+  }
+  return evenFibNumbers;
+}
